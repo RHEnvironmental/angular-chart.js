@@ -40,6 +40,7 @@
     .directive('chartBase', function (ChartJsFactory) { return new ChartJsFactory(); })
     .directive('chartLine', function (ChartJsFactory) { return new ChartJsFactory('Line'); })
     .directive('chartBar', function (ChartJsFactory) { return new ChartJsFactory('Bar'); })
+    .directive('chartHorizontalBar', function (ChartJsFactory) { return new ChartJsFactory('HorizontalBar'); })
     .directive('chartRadar', function (ChartJsFactory) { return new ChartJsFactory('Radar'); })
     .directive('chartDoughnut', function (ChartJsFactory) { return new ChartJsFactory('Doughnut'); })
     .directive('chartPie', function (ChartJsFactory) { return new ChartJsFactory('Pie'); })
